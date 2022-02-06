@@ -8,7 +8,7 @@ soma = n1 + n2
 subtrai = n1 - n2
 multiplica = n1 * n2
 divisao = n1 / n2
-
+#teste while
 while True:
     
     if op == "+":
