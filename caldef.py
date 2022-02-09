@@ -3,7 +3,7 @@ def calculadora():
 
     n1 = float(input("Digite o primeiro valor: "))
     n2 = float(input("Digite o segundo valor: "))
-    op = input("Digite a operação desejada: (+, -, *, /)")
+    op = input("Digite a operação desejada: (+, -, *, /):")
 
     if op == "+":
         print(n1+n2)
@@ -14,4 +14,6 @@ def calculadora():
     elif op == "/":
         print(n1/n2)
     else:
-        print("Porfavor insira um valor valido")    
+        print("Porfavor insira um valor valido")
+
+calculadora()
